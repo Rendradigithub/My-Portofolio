@@ -17,7 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "My Portofolio",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Nextjs"],
     image: {
       LIGHT: "/images/projects/kanbanLight.webp",
       DARK: "/images/projects/kanbanDark.webp",
@@ -27,29 +27,29 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
+    name: "My Portofolio",
+    favicon: "/images/projects/logos/",
     imageUrl: [
       "/images/projects/jsontreeLight.webp",
       "/images/projects/jsontreeDark.webp",
     ],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+    sourceCodeHref: "https://github.com/Rendradigithub/My-Portofolio",
+    liveWebsiteHref: "https://my-portofolio-five-wheat.vercel.app/",
   },
   {
-    name: "Kanban app",
+    name: "Zyroo",
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/ScreenshotZyroo.webp",
+      "/images/projects/ScreenshotZyroo2.webp",
+      "/images/projects/ScreenshotZyroo3.webp",
     ],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+    sourceCodeHref: "https://github.com/Rendradigithub/Zyroo/tree/master",
+    liveWebsiteHref: "https://zyroo-low-build.vercel.app/",
   },
   {
     name: "Many Games",
