@@ -1,36 +1,28 @@
-import { type ExperienceShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
+import { ExperienceShowcaseListItem } from "@/components/experience/experience-showcase-list";
 
-export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
+export const EXPERIENCE: ExperienceShowcaseListItem[] = [
   {
-    title: "Software Developer",
-    organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
-    },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    title: "Frontend Developer",
+    organisation: "Personal Project",
+    location: "Indonesia",
+    date: "2024 – Present",
+    description:
+      "Mengembangkan website dan aplikasi frontend menggunakan ReactJS dan NextJS dengan fokus pada UI responsif, clean code, dan performa.",
   },
   {
-    title: "Engineering Trainee",
-    organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
-    },
-    date: "July 2023 - Sep 2023",
+    title: "Fullstack Developer",
+    organisation: "Zyroo Project",
     location: "Remote",
+    date: "2024",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Mengembangkan platform Zyroo menggunakan ReactJS, NodeJS, Express, dan MongoDB termasuk autentikasi, REST API, dan manajemen database.",
   },
   {
-    title: "Frontend Developer Intern",
-    organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
-    },
-    date: "Winter - 2022",
-    location: "Remote",
+    title: "Student Internship (PKL)",
+    organisation: "Software Development",
+    location: "Surabaya",
+    date: "2024",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Mengikuti Praktik Kerja Lapangan dengan fokus pada pengembangan website, kolaborasi tim, dan workflow industri.",
   },
 ];

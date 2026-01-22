@@ -1,13 +1,18 @@
-import { type ProjectCardProps } from "@/components/projects/project-card";
-import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
+import type { ProjectCardProps } from "@/components/projects/project-card";
+import type { ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
+
+/**
+ * ======================================================
+ * PROJECT SHOWCASE (Homepage)
+ * ======================================================
+ */
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
     title: "Zyroo",
     href: "/projects",
-    tags: ["Nodejs", "ReactJS", "MongoDB", "Vercel"],
+    tags: ["Vite", "Node.js", "React", "MongoDB", "Vercel"],
     image: {
       LIGHT: "/images/projects/ScreenshotZyroo.webp",
       DARK: "/images/projects/ScreenshotZyroo2.webp",
@@ -15,39 +20,45 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "My Portofolio",
+    title: "My Portfolio",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Nextjs"],
+    tags: ["Next.js", "React", "Tailwind CSS", "Vercel"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/MyPortofolio1.webp",
+      DARK: "/images/projects/MyPortofolio2.webp",
     },
   },
 ];
 
+/**
+ * ======================================================
+ * PROJECT CARDS (Projects Page)
+ * ======================================================
+ */
+
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "My Portofolio",
-    favicon: "/images/projects/logos/",
+    name: "My Portfolio",
+    favicon: "/images/projects/logos/portfolio.svg",
     imageUrl: [
       "/images/projects/MyPortofolio1.webp",
       "/images/projects/MyPortofolio2.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
+      "Personal portfolio website built with Next.js and Tailwind CSS. Showcases projects, skills, and experience with responsive design and smooth animations.",
     sourceCodeHref: "https://github.com/Rendradigithub/My-Portofolio",
     liveWebsiteHref: "https://my-portofolio-five-wheat.vercel.app/",
   },
   {
     name: "Zyroo",
-    favicon: "/images/projects/logos/",
+    favicon: "/images/projects/logos/zyroo.svg",
     imageUrl: [
       "/images/projects/ScreenshotZyroo.webp",
       "/images/projects/ScreenshotZyroo2.webp",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/Rendradigithub/Zyroo/tree/master",
+      "Career platform built using React, Node.js, and MongoDB. Features authentication, job listings, dashboards, and scalable backend architecture.",
+    sourceCodeHref: "https://github.com/Rendradigithub/Zyroo",
     liveWebsiteHref: "https://zyroo-low-build.vercel.app/",
   },
 ];

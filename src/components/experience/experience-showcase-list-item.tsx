@@ -37,7 +37,7 @@ function ShowCaseLiIcon(props: ExperienceListIconProps) {
   );
 }
 
-export interface ExperienceShowcaseListItemProps {
+export interface ExperienceShowcaseListItem {
   title: string;
   organisation: {
     name: string;
@@ -49,7 +49,7 @@ export interface ExperienceShowcaseListItemProps {
 }
 
 export default function ExperienceShowcaseListItem(
-  props: ExperienceShowcaseListItemProps,
+  props: ExperienceShowcaseListItem,
 ) {
   const ref = useRef(null);
   return (

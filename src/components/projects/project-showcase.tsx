@@ -2,6 +2,9 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import { PROJECT_SHOWCASE } from "@/data/projects";
+import { PROJECTS_CARD } from "@/data/projects";
+
 import { AnimatePresence, motion } from "framer-motion";
 
 import { ArrowTopRight } from "@/components/icons";

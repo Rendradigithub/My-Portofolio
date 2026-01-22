@@ -5,6 +5,7 @@ import ExperienceShowcaseList from "@/components/experience/experience-showcase-
 import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
+import ExperienceShowcaseListItem from "@/components/experience/experience-showcase-list-item";
 
 export default function About() {
   return (

@@ -62,6 +62,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Javascript",
         icon: JavascriptSvg,
       },
+      {
+        name: "TypeScript",
+        icon: TypescriptSvg,
+      },
     ],
   },
   {

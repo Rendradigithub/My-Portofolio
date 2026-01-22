@@ -1,21 +1,28 @@
 export const siteMetadata = {
-  title: "Amit Chauhan portfolio",
-  author: "Amit Chauhan",
-  headerTitle: "Amit Chauhan",
-  description: "Frontend and Reactjs developer",
-  language: "en-us",
+  title: "Satrio Dwi Syairendra | Software Developer",
+  author: "Satrio Dwi Syairendra",
+  headerTitle: "Satrio",
+  description:
+    "Software Developer berbasis di Surabaya. Fokus pada pengembangan web end-to-end menggunakan React, Next.js, JavaScript, dan Node.js.",
+
+  language: "id-ID",
   theme: "light",
-  siteName: "amitchauhan.me",
-  siteUrl: "https://amitchauhan.me",
-  siteRepo: "https://github.com/BUMBAIYA/amitchauhan-v2",
+
+  siteName: "Satrio Portfolio",
+  siteUrl: "https://my-portofolio-five-wheat.vercel.app",
+  siteRepo: "https://github.com/Rendradigithub/My-Portofolio",
   siteLogo: "/favicon.ico",
-  image: "/static/homepage.png",
+
   twitterImage: "/static/homepage.png",
-  socialBanner: "/static/homepage.png",
-  email: "amitchauhan263871@gmail.com",
-  github: "https://github.com/BUMBAIYA",
-  twitter: "https://twitter.com/amitcha2638",
-  linkedin: "https://www.linkedin.com/in/amitchauhan-dev",
-  locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+
+  email: "sajax84@gmail.com",
+
+  // ✅ SOSIAL MEDIA KAMU
+  github: "https://github.com/Rendradigithub",
+  instagram: "https://www.instagram.com/rendra.docx/",
+  gitlab: "https://gitlab.com/RendraDiGitLab",
+
+  googleSiteVerification: "",
+
+  locale: "id-ID",
 };
